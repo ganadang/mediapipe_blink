@@ -73,3 +73,6 @@ def blinkRatio(img, landmarks, right_indices, left_indices):
 하지만 달리는 차 안에서 머리가 항상 같은 위치에 고정되어있을 수는 없다는 큰 문제점이 있었다.
 길이, 유클리드로 판단하는 방법은 머리의 앞,뒤,기울어진 위치에 따라 계산 값을 계속 바꿔주어야 했기 때문이다.
 유클리드 거리 비율을 사용하면 머리의 위치와 관계없이 항상 같은 정보를 받을 수 있었다.
+
+## mediapipe face mesh
+![mediapipe face mesh](2wCEAAkGBxMTEhUTExMWFhUXGRgVFxcXFRgVGBgdGBcYGBgYFxgYHSggGBolGxcXITEhJSkrLi4uGh8zODMtNygtLisBCgoKDQ0NFQ0NFS0dFR0tLS0tLSstKy0tKy0tLS0tLS0tKy0tLSstLS0tKy0tLS0rLS0rKysrLS0tLS0tLS0tLf)
