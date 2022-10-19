@@ -86,6 +86,7 @@ mediapipe iris는 홍채를 추적하여 눈 위치를 추정하는 기술이다
 
 ### mediapipe face mesh
 ![mediapipe_face_mesh](https://user-images.githubusercontent.com/116184495/196740116-4a099088-ea61-47cd-98c8-17e5a79bfb0c.jpg)
+
 MediaPipe face mesh란 얼굴 그물망은 실시간으로 468개의 3D 얼굴 랜드마크를 추정하는 얼굴 형상 솔루션이다.
 머신러닝 기술을 사용하여 3D표면 현상을 유추하로 전용 센서 없이 일반 카메라만으로 사용이 가능하다.
 mediapipe face mesh 에서 눈 렌드마크를 찾았다.
