@@ -77,9 +77,16 @@ def blinkRatio(img, landmarks, right_indices, left_indices):
 ## mediapipe
 MediaPipe란 구글에서 제공하는 AI 프레임워크로서, 비디오형식 데이터를 이용한 다양한 비전 AI 기능을 파이프라인 형태로 손쉽게 사용할 수 있도록 제공된다.  AI 모델개발 및 수많은 데이터셋을 이용한 학습도 마친 상태로 제공되므로 라이브러브 불러 사용하듯이 간편하게 호출하여 사용하기만 하면 되는 형태로 비전 AI 기능을 개발할 수 있다.  
 ![mediapipe_small](https://user-images.githubusercontent.com/116184495/196741353-b46bab77-86b7-4cd2-9dfe-7e44ce401e4a.png)
+[<링크>](https://google.github.io/mediapipe/)
 
+### mediapipe iris
+mediapipe에서 iris기술을 사용하였다.
+mediapipe iris는 홍채를 추적하여 눈 위치를 추정하는 기술이다.
+[<링크>](https://google.github.io/mediapipe/solutions/iris)
 
 ### mediapipe face mesh
 ![mediapipe_face_mesh](https://user-images.githubusercontent.com/116184495/196740116-4a099088-ea61-47cd-98c8-17e5a79bfb0c.jpg)
+MediaPipe face mesh란 얼굴 그물망은 실시간으로 468개의 3D 얼굴 랜드마크를 추정하는 얼굴 형상 솔루션이다.
+머신러닝 기술을 사용하여 3D표면 현상을 유추하로 전용 센서 없이 일반 카메라만으로 사용이 가능하다.
 mediapipe face mesh 에서 눈 렌드마크를 찾았다.
 
