@@ -74,5 +74,10 @@ def blinkRatio(img, landmarks, right_indices, left_indices):
 길이, 유클리드로 판단하는 방법은 머리의 앞,뒤,기울어진 위치에 따라 계산 값을 계속 바꿔주어야 했기 때문이다.
 유클리드 거리 비율을 사용하면 머리의 위치와 관계없이 항상 같은 정보를 받을 수 있었다.
 
-## mediapipe face mesh
+## mediapipe
+MediaPipe란 구글에서 제공하는 AI 프레임워크로서, 비디오형식 데이터를 이용한 다양한 비전 AI 기능을 파이프라인 형태로 손쉽게 사용할 수 있도록 제공된다.  AI 모델개발 및 수많은 데이터셋을 이용한 학습도 마친 상태로 제공되므로 라이브러브 불러 사용하듯이 간편하게 호출하여 사용하기만 하면 되는 형태로 비전 AI 기능을 개발할 수 있다.  
+
+### mediapipe face mesh
 ![mediapipe_face_mesh](https://user-images.githubusercontent.com/116184495/196740116-4a099088-ea61-47cd-98c8-17e5a79bfb0c.jpg)
+mediapipe face mesh 에서 눈 렌드마크를 찾았다.
+
