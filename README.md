@@ -2,7 +2,7 @@
 동신AI 대회
 
 ## 사용한 주요 모듈
-```p
+```c
 import cv2 
 import numpy 
 import mediapipe
@@ -32,7 +32,7 @@ def landmarksDetection(img, results, draw=False):
 
 ### 깜박임 판단하기
 #### 유클리드거리 지정하기
-```p
+```c
 def euclaideanDistance(point1, point2):
     x, y = point1
     x1, y1 = point2
@@ -42,7 +42,7 @@ def euclaideanDistance(point1, point2):
 눈의 가로와 세로
 
 #### 화면에서 눈 일고 비율 측정하기
-```p
+```c
 def blinkRatio(img, landmarks, right_indices, left_indices):
     rh_right = landmarks[right_indices[0]]
     rh_left = landmarks[right_indices[8]]
