@@ -20,7 +20,7 @@ LEFT_EYE =[ 362, 382, 381, 380, 374, 373, 390, 249, 263, 466, 388, 387, 386, 385
 RIGHT_EYE=[ 33, 7, 163, 144, 145, 153, 154, 155, 133, 173, 157, 158, 159, 160, 161 , 246 ]  
 ```
 눈 주위의 필요한 렌드마크를 가져온다
-```p
+```c
 def landmarksDetection(img, results, draw=False):
     img_height, img_width= img.shape[:2]
     mesh_coord = [(int(point.x * img_width), int(point.y * img_height)) for point in results.multi_face_landmarks[0].landmark]
