@@ -75,4 +75,4 @@ def blinkRatio(img, landmarks, right_indices, left_indices):
 유클리드 거리 비율을 사용하면 머리의 위치와 관계없이 항상 같은 정보를 받을 수 있었다.
 
 ## mediapipe face mesh
-![mediapipe face mesh]("Desktop/mediapipe_face_mesh.jpg")
+![mediapipe face mesh]("![mediapipe_face_mesh](https://user-images.githubusercontent.com/116184495/196740116-4a099088-ea61-47cd-98c8-17e5a79bfb0c.jpg)")
