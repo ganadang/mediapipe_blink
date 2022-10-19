@@ -71,7 +71,7 @@ with map_face_mesh.FaceMesh(min_detection_confidence =0.5, min_tracking_confiden
             utils.colorBackgroundText(frame,  f'Ratio : {round(ratio,2)}', FONTS, 0.7, (30,100),2, utils.PINK, utils.YELLOW)
 
 
-            if ratio >3.5:
+            if ratio >3.2:#만약 눈을 감지 않았는데 비프음이 들리면 ratio기준을 올리고, 눈을 아무리 감고 있어도 비프음이 들리지 않는다면 ratior기준을 낮추면 된다.
                 CEF_COUNTER +=1
                 if CEF_COUNTER >= 50:
                     utils.colorBackgroundText(frame,  f'wake up', FONTS, 3, (int(frame_height/2), 100), 2, utils.YELLOW, pad_x=6, pad_y=6, )
